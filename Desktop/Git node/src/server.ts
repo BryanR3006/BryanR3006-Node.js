@@ -1,6 +1,7 @@
 import express from 'express'
 const app = express()
 import router from './router'
+import {connectDB} from './config/db'
 
 
 //Routing
